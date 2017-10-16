@@ -1,6 +1,6 @@
-Merchant's Guide to the Galaxy
+# Merchant's Guide to the Galaxy
 
-=== Problem ===
+## Problem 
  
 You decided to give up on earth after the latest financial collapse left 99.99% of the earth's population with 0.01% of the wealth. Luckily, with the scant sum of money that is left in your account, you are able to afford to rent a spaceship, leave earth, and fly all over the galaxy to sell common metals and dirt (which apparently is worth a lot).
 Buying and selling over the galaxy requires you to convert numbers and units, and you decided to write a program to help you.
@@ -9,7 +9,7 @@ Input to your program consists of lines of text detailing your notes on the conv
  
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-=== Assumptions ===
+## Assumptions
 
  - The input data ends when an empty line is informed.
  - The system is case sensitive.
@@ -17,7 +17,7 @@ Input to your program consists of lines of text detailing your notes on the conv
  
 ------------------------------------------------------------------------------------------------------------
 
-=== Some examples of input/expected output ===
+### Some examples of input/expected output
 
 These examples were implemented as unit tests.
  - This can be verified in the test code.
@@ -26,6 +26,7 @@ Also, it is possible build the jar file and run the application in the command l
  - The jar file can be executed in the command line using a command like this: "java -jar merchants_guide_galaxy.jar".
  - See screenshots: merchants_guide_galaxy_jar_test.PNG and merchants_guide_galaxy_jar_test_2.PNG
 
+```
 === Test Input 1 ===
 
 glob is I
@@ -67,5 +68,5 @@ Dragon Shouts are an ancient form of magic prominently used in Skyrim
 Fus Roh Dah is 14
 Fus Roh Dah DragonShout is 14 Credits
 I have no idea what you are talking about
-
+```
 
